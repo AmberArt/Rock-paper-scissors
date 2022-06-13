@@ -22,17 +22,17 @@
             <div class="col-3 border border-dark" style="height: 200px;">
                 <div class="row">
                     <div class="card-columns">
-                        <div class="col-12 mx-auto">
+                        <div class="col mx-auto">
                             <h2>Choose Wisely!</h2>
                         </div>
                         <div class="col-12 mx-auto my-2">
-                            <button class="btn btn-primary">Rock</button>
+                            <button class="btn btn-primary" onclick="gameObj.playGame(event)" value="rock">Rock</button>
                         </div>
                         <div class="col-6 mx-auto my-2">
-                            <button class="btn btn-primary">Paper</button>
+                            <button class="btn btn-primary" onclick="gameObj.playGame(event)" value="paper">Paper</button>
                         </div>
                         <div class="col-6 mx-auto my-2">
-                            <button class="btn btn-primary">Scissors</button>
+                            <button class="btn btn-primary" onclick="gameObj.playGame(event)" value="scissors">Scissors</button>
                         </div>
                     </div>
                     
@@ -41,11 +41,11 @@
             <div class="col-3 border border-dark"  style="height: 200px;">
                 <div class="row">
                     <div class="col-12">
-                        <h3>Display User Choice vs. Computer Choice Here and deem the winner of the match</h3>
+                        <h3 id="display-choices">Display User Choice vs. Computer Choice Here and deem the winner of the match</h3>
                     </div>
                     
                     <div class="col">
-                        <h4>Display who won here</h4>
+                        <h4 id="display-winner">Display who won here</h4>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                         <h3>Computers Choice</h3>
                     </div>
                     <div class="col-8 card mt-3" style="height: 100px">
-                        <h4>Display Computers Choice here</h4>
+                        <h4 id="comp-choice">Display Computers Choice here</h4>
                     </div>
                 </div>
             </div>

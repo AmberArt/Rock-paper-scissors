@@ -1,6 +1,6 @@
 # Rock-paper-scissors
 
-* The goal is to have uses play the game ten times, and then show them their overall score. Focus on getting it to work once before worrying about multiple games.
+* The goal is to have users play the game ten times, and then show them their overall score. Focus on getting it to work once before worrying about multiple games.
 
 ## Rules for rock-paper-scissors
 
